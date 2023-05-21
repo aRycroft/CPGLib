@@ -68,7 +68,7 @@ public:
     /// get the length of the delayline as unsigned int
     unsigned getSize()
     {
-        return _size();
+        return _size;
     }
 
     /// return the value at the write position (the position to be written)
